@@ -1,0 +1,30 @@
+No ghci faça:
+    > :set +t
+    > fst (4, ’a’)
+    > snd (4, ’a’)
+    > fst (5.6, 3)
+    > :i fst
+    > :t fst
+    > :i tail
+    3
+    > :t tail
+    > tail [6,7,3,9]
+    > tail ‘‘sdferta’
+
+:set +t
+    O que faz? Diz ao interpretador: "Sempre que calculares um valor, mostra-me também o tipo desse valor automaticamente".
+    Sem isto: tu escreves 5+5 e ele responde 10.
+    Com isto: tu escreves 5+5 e ele responde 10 :: Int (ou similar).
+
+fst (4, ’a’), snd (4, ’a’), fst (5.6, 3)
+    funciona desde que sej par
+:t
+    mostra a assinatura da funcao (oq ela recebe e oq ela devolve)
+
+:i
+    da informação mais detalhada (onde foi definida, a precedência se for um operador, etc).
+
+tail
+    deitafora o primeiro elemento e devolve todo o resto da lista
+    e polimorfica: recebe uma lista de um tipo e retorna o mesmo tipo 
+    

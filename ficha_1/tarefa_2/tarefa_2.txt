@@ -1,0 +1,33 @@
+Tarefa 2
+Infira o tipo, se existir, de cada uma das seguintes express˜oes, e avalie-a:
+    1. [True, (5>4), (not (’5’==’6’)), (True || (False && True))]
+    2. ((tail ‘‘abcdef’’),(head ‘‘abcdef’’))
+    3. [(tail ‘‘abcdef’’),(head ‘‘abcdef’’)]
+    4. [4,5,6]++[3,5,8]
+    5. (tail [6,7])
+    6. concat [‘‘asdf’’, ‘‘bbb’’, ‘‘tyuui’’, ‘‘cccc’’]
+
+1. [True, (5>4), (not (’5’==’6’)), (True || (False && True))]
+    É uma lista de booleanos, pois o resultado detodas essas operacoes é:
+    [True, True, True, True].
+
+2. ((tail ‘‘abcdef’’),(head ‘‘abcdef’’))
+    tail "abcdef" = "bcdef" - uma string
+    head "abcdef" = 'a' - um char
+    [string, char]
+
+3. [(tail ‘‘abcdef’’),(head ‘‘abcdef’’)]
+    é uma lista de tuplos!
+    mas uma lista nao pode misturar tipos.... por isso daria erro.
+
+4. [4,5,6]++[3,5,8]
+    ++ - concatena
+    ambas sao listas de inteiro, entao e compativel
+    e o resultado e [4, 5, 6, 3, 5, 8]
+
+5. (tail [6,7])
+    retorna uma LISTA [7] (mesmo retornando um unico numero)
+
+6. concat [‘‘asdf’’, ‘‘bbb’’, ‘‘tyuui’’, ‘‘cccc’’]
+    concatena todas as strings numa so
+    retorna "asdfbbbtyuuicccc"

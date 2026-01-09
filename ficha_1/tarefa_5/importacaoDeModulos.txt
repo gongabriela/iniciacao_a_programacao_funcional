@@ -1,0 +1,20 @@
+Até agora, escrevemos tudo num único ficheiro. Mas imagine que é um programador profissional 
+e tem milhares de funções. Não vai querer tudo num ficheiro gigante de 10.000 linhas, certo?
+ É aqui que entra a Importação.
+
+O Conceito (Teoria)
+1. Dividir para Conquistar
+    - Um programa Haskell é formado por vários módulos (ficheiros).
+
+2. Reutilização: 
+    - Se definimos funções úteis num módulo (ex: matemática), podemos "chamá-las" noutro 
+      módulo sem ter de reescrever o código.
+
+3. A Chave (import):
+    - Para usar as ferramentas de outro módulo, usamos a palavra mágica import.
+
+A Exceção: O Prelude
+Já usaste funções como +, *, head e tail sem importar nada. Porquê? 
+A ficha explica que existe um módulo especial chamado Prelude.
+    - É a "caixa de ferramentas básica" do Haskell.
+    - É importado automaticamente em todos os ficheiros. Não precisas de fazer nada.

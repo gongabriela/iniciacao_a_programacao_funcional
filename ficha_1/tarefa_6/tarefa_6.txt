@@ -1,0 +1,2 @@
+Consulte as definicoes oferecidas pelo modulo Char, escrevendo
+> :b Char
