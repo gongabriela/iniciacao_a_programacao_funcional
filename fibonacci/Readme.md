@@ -8,10 +8,7 @@ Este diretório contém diferentes implementações e análises da **Sequência 
 Implementação principal da sequência Fibonacci com múltiplas abordagens.
 
 ### `fibonacci.hs`
-Variação e experimentação com diferentes técnicas.
-
-### `Fibonacci.hs`
-Versão refinada com melhor documentação e tipos.
+Implementacao em C adaptada para Haskell.
 
 ### `Readme.md`
 Documentação específica sobre as implementações.
@@ -57,4 +54,5 @@ seqFib 10  -- Retorna [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
 1. Lazy evaluation permite trabalhar com estruturas infinitas
 2. Referências circulares são válidas e úteis em Haskell
+
 3. A elegância do código funcional vem da abstração
